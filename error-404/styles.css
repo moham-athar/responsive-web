@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;70;0&display=swap');
+
+html,
+body{
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Space Mono', monospace;
+}
+
+header{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0.2rem 1.5rem;
+}
+
+footer{
+    max-width: 100%;
+    text-align: center;
+    font-size: 1.10rem;
+}
+
+.img-cont{
+    max-width: 50%;
+    margin: 50px;
+}
+
+img{
+    max-width: 500px;
+    margin: 35px 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    overflow-wrap: break-word;
+    margin-bottom: -40px;
+}
+
+.text-cont{
+    margin: 200px 0;
+}
+
+div .text-cont{
+    inline-size: 250px;
+    overflow-wrap: break-word;
+}
+
+h1{
+    font-size: 3rem;
+    width: 10em;
+    margin: 2px;
+}
+
+div p{
+    width: 19em;
+    margin: 25px 0;
+    font-weight: 150;
+}
+
+button{
+   font-family: inherit;
+   background-color: black;
+   color: white;
+   padding: 15px 25px;
+}
+
+@media (max-width: 730px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .text-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 3em 2em;
+        margin: 0;
+    }
+
+    .img-cont{
+        position: relative;
+        bottom: 25px;
+        height: 250px;
+        margin: 0;
+
+    }
+
+    img{
+        height: 250px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    footer{
+    margin-top: 7em;
+    }
+}

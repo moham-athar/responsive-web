@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    position: relative;
+    left: 387px;
+    bottom: 428px;
+}
+
+header{
+    display: flex;
+    gap: 18rem;
+    min-height: 25%;
+}
+
+div h1 {
+    padding: 2.5em;
+    font-weight: bolder;
+}
+
+.info-sec{
+    padding: 2.7em;
+}
+
+div h2{
+    margin-bottom: 0.9em;
+    font-weight: 500;
+}
+
+div p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    width: 20rem;
+}
+
+main{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+img{
+    max-width: 17rem;
+}
+
+main div img, h2{
+    margin: 0  6.5rem;
+}
+
+
+
+div .img-cont{
+   min-height: 22rem;
+}
+
+.cont-2{
+    margin-top: 9rem;
+}
+
+.cont-3{
+    margin-bottom: 1rem;
+}
+
+.cont-5{
+    margin-top: 9rem;
+}
+
+footer{
+    text-align: center;
+}
+
+/*mobile breakpoint*/
+
+@media(max-width:440px){
+
+.img-cont{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+div h1{
+    margin-top: -3rem;
+    margin-bottom: -3.8rem;
+    text-align: start;
+    padding-left: 1rem;
+}
+
+header div h2,
+header div p{
+  padding: 0;
+  margin-left: -1rem;
+}
+
+img{
+    max-width: 9rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    justify-items: center;
+    margin-bottom: 25rem;   
+    gap: 0;
+    margin-bottom: 5rem;
+}
+
+
+h2
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 0.5rem;
+    position: relative;
+    left: 16rem;
+    top: -15rem;
+}
+.cont-2{
+    margin-top: 4.5rem;
+}
+.cont-4{
+    margin-top: 4.5rem;
+}
+.cont-6{
+    margin-top: 4.5rem;
+}
+}
